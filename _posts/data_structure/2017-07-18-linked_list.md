@@ -52,7 +52,7 @@ list : 자료를 순차적으로 정리해 놓은 것.(순서가 있다)
 
 > tail 은 항상 마지막을 가리킨다.
 
-![linked_list](https://{{site.url}}/assets/images/post/linked_list.png)
+![linked_list](https://{{site.url}}/linked_list.png)
 
 새롭게 node 가 생기면 이 값을 연결할 수 있게 참조해줘야 한다. 단순하게 생각해보면 tail 은 마지막 값을 지정해야하기 때문에 새로 들어온 node를 가리켜야 한다.
 
