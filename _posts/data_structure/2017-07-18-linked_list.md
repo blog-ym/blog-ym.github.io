@@ -52,12 +52,12 @@ list : 자료를 순차적으로 정리해 놓은 것.(순서가 있다)
 
 > tail 은 항상 마지막을 가리킨다.
 
-![linked_list](https://{{site.url}}/assets/images/post/linked_list.png)
+![linked_list]({{site.url}}/assets/images/post/linked_list.png)
 
 새롭게 node 가 생기면 이 값을 연결할 수 있게 참조해줘야 한다. 단순하게 생각해보면 tail 은 마지막 값을 지정해야하기 때문에 새로 들어온 node를 가리켜야 한다.
 
 
-![linked_insert](https://{{site.url}}/assets/images/post/insert.png)
+![linked_insert]({{site.url}}/assets/images/post/insert.png)
 
 ```
 self.tail.next = new_node
@@ -97,7 +97,7 @@ def append(self, data):
 
 > 순회 전에 before & current 이 None 값을 갖는다.
 
-![linked_search](https://{{site.url}}/assets/images/post/search.png)
+![linked_search]({{site.url}}/assets/images/post/search.png)
 
 순차적으로 돌면서 찾기 위해 전제조건이 필요하다. mode = first 가 이미 선언이 되어있으며 비어있는 node 가 아니다.
 
@@ -146,7 +146,7 @@ search 의 전체 코드를 살펴보자
 > current 가 가리키는 위치 삭제
 
 
-![linked_remove](https://{{site.url}}/assets/images/post/remove.png)
+![linked_remove]({{site.url}}/assets/images/post/remove.png)
 
 일반적으로 중간값을 지우고자 할때 before의 next 가 current의 next 를 가리키고 current는 before 로 이동한다.
 
