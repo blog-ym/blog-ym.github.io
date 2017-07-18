@@ -9,7 +9,7 @@ tag:
 star: true
 category: blog
 author: YM
-description: algorithm summary
+description: algorithm Binary Search summary
 ---
 
 # Binary Search
