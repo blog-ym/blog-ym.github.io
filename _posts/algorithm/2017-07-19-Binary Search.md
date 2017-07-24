@@ -1,7 +1,7 @@
 ---
 title: "Binary Search"
 layout: post
-date: 2017-07-17
+date: 2017-07-19
 image: /assets/images/docker_profile.png
 headerImage: true
 tag:
