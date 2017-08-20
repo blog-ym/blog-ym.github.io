@@ -23,7 +23,7 @@ layout: page
 	<li>Python</li>
 	<li>Django</li>
 	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Html</li>
+	<li>HTML</li>
 	<li>Git</li>
 	<li>Postgres</li>
 </ul>
